@@ -1,0 +1,22 @@
+[
+    {
+        "buyer_id": 1,
+        "product_id": 2,
+        "ammount": 1
+    },
+    {
+        "buyer_id": 4,
+        "product_id": 1,
+        "ammount": 2
+    },
+    {
+        "buyer_id": 3,
+        "product_id": 4,
+        "ammount": 2
+    },
+    {
+        "buyer_id": 1,
+        "product_id": 4,
+        "ammount": 2
+    }
+]

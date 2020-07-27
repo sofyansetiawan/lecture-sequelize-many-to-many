@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Laptop",
+        "price": 1000000,
+        "stock": 20
+    },
+    {
+        "name": "Biskuit",
+        "price": 2000,
+        "stock": 30
+    },
+    {
+        "name": "Kompor",
+        "price": 200000,
+        "stock": 100
+    },
+    {
+        "name": "Sepeda",
+        "price": 2000000,
+        "stock": 50
+    } 
+]
