@@ -70,13 +70,13 @@ Example for Sequelize using many to many relationship model
 
 - Setup Model
 
-  - npx sequelize model:generate --name <Namamodel> --attributes <column>:<type>,<column>:<type>,<column>:<type>
+  - npx sequelize model:generate --name Namamodel --attributes column:type,column:type,column:type
     - Contoh: npx sequelize model:generate --name People --attributes firstname:string,lastname:string,age:integer,address:string,ismale:boolean
     - Kolom id tidak perlu di generate (otomatis oleh sequelize)
   - Mengenerate model dan migration
     - Model berhubungan dengan interaksi user dan database
     - Migration berhubungan bentuk dan struktur database
-  - Membuat Model index dan <namamodel> (poeple.js)
+  - Membuat Model index dan namamodel (poeple.js)
     - File index.js di models jangan diubah
     - Terdapat struktur kolom table
 
@@ -101,7 +101,7 @@ Example for Sequelize using many to many relationship model
 
 - Setup Seeding
 
-  - npx sequelize seed:generate --name <namaseeding> 
+  - npx sequelize seed:generate --name namaseeding 
 
     - npx sequelize seed:generate --name seed-people 
     - Nama seeding menggunakan timestamp
@@ -119,7 +119,7 @@ Example for Sequelize using many to many relationship model
 - Melakukan Seeding
 
   - npx sequelize db:seed:all
-    - Jika ingin single file npx sequelize db:seed --seed <namafile>
+    - Jika ingin single file npx sequelize db:seed --seed namafile
     - Melakukan seeding data ke database
 
 - Buat Many to many seperti yang dijelaskan di lecture
@@ -156,7 +156,6 @@ Example for Sequelize using many to many relationship model
     });
     ```
 
-    
 
 - Setup Express
 
